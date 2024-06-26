@@ -16,7 +16,7 @@ Before you begin, make sure you have the following installed on your local machi
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone [https://github.com/norairlabs/docs-norairlabs-com](https://github.com/norairlabs/docs-norairlabs-com.git)
+    git clone https://github.com/norairlabs/docs-norairlabs-com.git
     cd docs-norairlabs-com
     ```
 
@@ -35,6 +35,7 @@ To run the documentation site locally, use the following command:
     ```
 
 This will start a local development server and open the documentation site in your default web browser. Any changes you make to the source files will be reflected live.
+
 
 ### Building the Documentation
 
@@ -75,6 +76,7 @@ If you find any issues or have suggestions for improvements, please open an issu
     ```
 
 4. Open a pull request against the main repository. Provide a detailed description of your changes and why they should be merged.
+
 
 ### Writing Documentation
 
