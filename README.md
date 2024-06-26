@@ -1,41 +1,100 @@
-# Website
+# NorAir Labs Documentation
 
-This website is built using [Docusaurus](https://docusaurus.io/), a modern static website generator.
+Welcome to the NorAir Labs Documentation repository! This project uses [Docusaurus](https://docusaurus.io/) to create and manage our documentation. Below, you will find instructions on how to set up the project, use Docusaurus, and contribute to our documentation.
+
+## Getting Started
+
+### Prerequisites
+
+Before you begin, make sure you have the following installed on your local machine:
+
+- [Node.js](https://nodejs.org/) (version 14.x or later)
+- [Yarn](https://yarnpkg.com/) (version 1.5 or later)
 
 ### Installation
 
-```
-$ yarn
-```
+1. Clone the repository to your local machine:
 
-### Local Development
+    ```bash
+    git clone [https://github.com/norairlabs/docs-norairlabs-com](https://github.com/norairlabs/docs-norairlabs-com.git)
+    cd docs-norairlabs-com
+    ```
 
-```
-$ yarn start
-```
+2. Install the dependencies:
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
+    ```bash
+    npm run install
+    ```
 
-### Build
+### Running the Documentation Locally
 
-```
-$ yarn build
-```
+To run the documentation site locally, use the following command:
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+    ```bash
+    npm run start
+    ```
 
-### Deployment
+This will start a local development server and open the documentation site in your default web browser. Any changes you make to the source files will be reflected live.
 
-Using SSH:
+### Building the Documentation
 
-```
-$ USE_SSH=true yarn deploy
-```
+To build the static files for the documentation site, use the following command:
 
-Not using SSH:
+    ```bash
+    npm run build
+    ```
 
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
+The build output will be located in the `build` directory. You can serve these files using any static file server.
 
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+## Contributing
+
+We welcome contributions to improve our documentation. Here's how you can help:
+
+### Reporting Issues
+
+If you find any issues or have suggestions for improvements, please open an issue in this repository.
+
+### Submitting Changes
+
+1. Fork the repository and create a new branch for your changes:
+
+    ```bash
+    git checkout -b my-feature-branch
+    ```
+
+2. Make your changes and commit them with a clear and concise commit message:
+
+    ```bash
+    git commit -m "Add detailed explanation for feature X"
+    ```
+
+3. Push your changes to your forked repository:
+
+    ```bash
+    git push origin my-feature-branch
+    ```
+
+4. Open a pull request against the main repository. Provide a detailed description of your changes and why they should be merged.
+
+### Writing Documentation
+
+Documentation is stored in the `docs` directory. Each Markdown file represents a page on the documentation site. Here are some tips for writing good documentation:
+
+- **Clear and Concise**: Write clear and concise explanations. Avoid unnecessary jargon.
+- **Examples**: Provide examples to illustrate complex concepts.
+- **Consistency**: Follow the existing style and structure of the documentation.
+
+### Using Docusaurus
+
+Docusaurus makes it easy to create and manage documentation. Here are some key features:
+
+- **Sidebar Navigation**: Define the structure of the sidebar in the `sidebars.js` file.
+- **Markdown Features**: Use Markdown to write documentation. Docusaurus supports enhanced Markdown features, including code blocks, admonitions, and more.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+
+---
+
+Thank you for contributing to NorAir Labs Documentation!
