@@ -1,0 +1,9 @@
+{
+  "label": "Products",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "slug": "/category/sdk-products",
+    "description": "Product Software Development Kit"
+  }
+}
