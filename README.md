@@ -29,7 +29,6 @@ Before you begin, make sure you have the following installed on your local machi
 ### Running the Documentation Locally
 
 To run the documentation site locally, use the following command:
-
     ```bash
     npm run start
     ```
@@ -40,7 +39,6 @@ This will start a local development server and open the documentation site in yo
 ### Building the Documentation
 
 To build the static files for the documentation site, use the following command:
-
     ```bash
     npm run build
     ```
@@ -95,7 +93,7 @@ Docusaurus makes it easy to create and manage documentation. Here are some key f
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more information.
+This project is licensed under the MIT License. See the [LICENSE.md](LICENSE.md) file for more information.
 
 ---
 
