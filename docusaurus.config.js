@@ -35,7 +35,7 @@ const config = {
       ({
         docs: {
           sidebarPath: './sidebars.js',
-          editUrl: 'https://github.com/norairlabs/docs_beta/blob/master/'
+          editUrl: 'https://github.com/norairlabs/docs-norairlabs-com/blob/master/'
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -69,7 +69,7 @@ const config = {
             label: 'SDK',
           },
           {
-            href: 'https://github.com/norairlabs/docs_beta',
+            href: 'https://github.com/norairlabs/docs-norairlabs-com',
             label: 'GitHub',
             position: 'right',
           },
