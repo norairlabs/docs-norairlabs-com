@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'NorairLabs - Documentation',
-  tagline: '',
+  tagline: 'Begin exploring our Documentation !',
   favicon: 'img/favicon.ico',
 
   // URL & Base Path
@@ -50,7 +50,7 @@ const config = {
     ({
       image: 'img/social-card.jpg',
       navbar: {
-        title: 'NorairLabs Documentation',
+        title: '',
         logo: {
           alt: 'NorairLabs Logo',
           src: 'img/logo.svg',
