@@ -8,27 +8,28 @@ const FeatureList = [
     Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        We believe in breaking barriers, fostering collaboration, and empowering the community to take control of their skyward journeys.
+        Join the NorAir Labs community and contribute to our open-source documentation project.
+        Our community-driven approach ensures that everyone can help improve and expand our documentation, making it more comprehensive and useful for all users.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Open-Standards',
     Svg: require('@site/static/img/open-standards.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        Our documentation leverages open standards like Git and Markdown to ensure accessibility and collaboration.
+        By using Git for version control and Markdown for easy-to-write, easy-to-read formatting, we empower our community to contribute seamlessly. 
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: 'API & Examples',
     Svg: require('@site/static/img/seamless-integration.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Dive into our detailed API documentation, enriched with practical examples to simplify your integration process.
+        Our clear instructions and real-world scenarios make it easy to understand and utilize our API.
       </>
     ),
   },
