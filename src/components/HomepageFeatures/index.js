@@ -4,11 +4,10 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Our Community',
+    title: 'Community-driven',
     Svg: require('@site/static/img/community.svg').default,
     description: (
       <>
-        Join the NorAir Labs community and contribute to our open-source documentation project.
         Our community-driven approach ensures that everyone can help improve and expand our documentation, making it more comprehensive and useful for all users.
       </>
     ),
@@ -19,17 +18,15 @@ const FeatureList = [
     description: (
       <>
         Our documentation leverages open standards like Git and Markdown to ensure accessibility and collaboration.
-        By using Git for version control and Markdown for easy-to-write, easy-to-read formatting, we empower our community to contribute seamlessly. 
       </>
     ),
   },
   {
-    title: 'API & Examples',
+    title: 'SDK & Examples',
     Svg: require('@site/static/img/seamless-integration.svg').default,
     description: (
       <>
-        Dive into our detailed API documentation, enriched with practical examples to simplify your integration process.
-        Our clear instructions and real-world scenarios make it easy to understand and utilize our API.
+        Dive into our detailed SDK documentation, enriched with practical examples to simplify your integration process.
       </>
     ),
   },

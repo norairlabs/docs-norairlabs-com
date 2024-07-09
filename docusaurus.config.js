@@ -9,7 +9,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'NorairLabs - Documentation',
-  tagline: 'Begin exploring our Documentation !',
+  tagline: 'Start exploring our documentation !',
   favicon: 'img/favicon.ico',
 
   // URL & Base Path
