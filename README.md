@@ -9,7 +9,7 @@ This project uses [Docusaurus](https://docusaurus.io/) to create and manage our 
 
 Before you begin, make sure you have the following installed on your local machine:
 
-- [Node.js](https://nodejs.org/) (version 18.x or later)
+- [Node.js](https://nodejs.org/) (version 22.x or later)
 
 ### Installation
 
@@ -23,7 +23,7 @@ Before you begin, make sure you have the following installed on your local machi
 2. Install the dependencies:
 
     ```bash
-    npm run install
+    npm install
     ```
 
 ### Running the Documentation Locally
