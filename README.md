@@ -9,7 +9,7 @@ This project uses [Docusaurus](https://docusaurus.io/) to create and manage our 
 
 Before you begin, make sure you have the following installed on your local machine:
 
-- [Node.js](https://nodejs.org/) (version 22.x or later)
+- [Node.js](https://nodejs.org/) (version .x or later)
 
 ### Installation
 
@@ -31,6 +31,15 @@ Before you begin, make sure you have the following installed on your local machi
 To run the documentation site locally, use the following command:
     ```
     npm run start
+    ```
+
+This will start a local development server and open the documentation site in your default web browser. Any changes you make to the source files will be reflected live.
+
+### Running the Documentation Remotely
+
+To run the documentation site remotely, use the following command:
+    ```
+    npm run start -- --host 0.0.0.0
     ```
 
 This will start a local development server and open the documentation site in your default web browser. Any changes you make to the source files will be reflected live.
