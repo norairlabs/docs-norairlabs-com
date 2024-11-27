@@ -4,31 +4,30 @@ sidebar_position: 1
 
 # Ping
 
-The J-PORT can issue error messages on malformed packets or if an internal error occurs. This is a
-simple error reporting system to allow users to act as soon as possible. These messages are
-automatically issued as a reply to an instruction received.
+Retrieves a J-PORT welcome message as proof of life in ASCII format. Exceptionally, the reply
+header is ‘1’ and ‘0’ to make it easier to interpret.
 
-## Reply
+## Request
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
-| 255 | 10 |  S  | ERR |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |  |
+| 10 | 6 |    |  |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |  |
 
-
-## Structure
+## Request Structure
 
 | Byte | Value | Size | Type | Description                              |
 |------|-------|------|------|------------------------------------------|
-| 0    | 255   | 1    | BIN  | Error message header                     |
-| 1    | 10    | 1    | BIN  | J-PORT address                             |
-| 2    | S     | 1    | BIN  | Peripheral ID (or intended target recipient ID) |
-| 3    | Err   | 1    | BIN  | Error code                               |
+| 0    | 10   | 1    | BIN  | J-PORT Address                    |
+| 1    | 6    | 1    | BIN  | PING instruction code    |
 
+## Response (ASCII)
 
-## Error Codes
+| 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| 1 | 0 |  P  | r |  e  |  s  |  e  |  n  |  t  |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |  |
 
-| Error Code | Description                          |
-|------------|--------------------------------------|
-| 50         | Malformed or invalid instruction code |
-| 10         | Message not delivered               |
-| 30         | Peripheral not reachable            |
+## Response (Decimal)
+
+| 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |
+|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
+| 48 | 48 | 80   | 114 |  101  | 115   | 101   | 110   | 116   |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |  |

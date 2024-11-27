@@ -15,7 +15,7 @@ automatically issued as a reply to an instruction received.
 | 255 | 10 |  S  | ERR |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |  |
 
 
-## Structure
+## Reply Structure
 
 | Byte | Value | Size | Type | Description                              |
 |------|-------|------|------|------------------------------------------|
