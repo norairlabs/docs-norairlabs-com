@@ -8,14 +8,14 @@ The J-PORT can issue error messages on malformed packets or if an internal error
 simple error reporting system to allow users to act as soon as possible. These messages are
 automatically issued as a reply to an instruction received.
 
-## Reply
+## Response
 
 | 0  | 1  | 2  | 3  | 4  | 5  | 6  | 7  | 8  | 9  | 10 | 11 | 12 | 13 | 14 | 15 | 16 | 17 | 18 | 19 | 20 | 21 | 22 | 23 | 24 | 25 | 26 | 27 | 28 | 29 | 30 | 31 |
 |----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|----|
 | 255 | 10 |  S  | ERR |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |    |  |
 
 
-## Reply Structure
+## Response Structure
 
 | Byte | Value | Size | Type | Description                              |
 |------|-------|------|------|------------------------------------------|
