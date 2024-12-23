@@ -98,5 +98,5 @@ Example of a VICe connection:
 | 5                               | 55                               | ON          | 5                           | 117                              | OFF         |
 | 14                              | 64                               | ON          | 14                          | 95                               | OFF         |
 
-A physical connector and its VICe connector share the same connector number but are assigned different joystick button numbers.
+A physical connector and its VICe connector share the same connector number but are assigned different joystick button numbers..
 
