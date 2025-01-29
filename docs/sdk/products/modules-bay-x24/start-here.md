@@ -24,3 +24,5 @@ the same item: one to the ON logic state and another for the OFF logic state. Th
 be created virtually as a VICe with an additional joystick button number, saving a physical
 connector although occupying a joystick button number. This may not be an issue when there are
 199 more available.
+
+Every time 'ID' expression is used, it refers to ID attributed by enumeration. The MBx24 default ID is 50.
