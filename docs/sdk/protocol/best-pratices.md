@@ -4,7 +4,7 @@ sidebar_position: 2
 
 # Best Pratices
 
-After a user sends a message, they should always verify the response to ensure successful
+After a user sends a message, one should always verify the response to ensure successful
 execution or to identify any errors. Communication can be successful, but the result may not be, or
 execution may not be possible. In such cases, actions should be taken to correct the procedure to
 achieve the expected result.
