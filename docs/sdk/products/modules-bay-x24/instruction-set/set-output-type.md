@@ -19,9 +19,9 @@ Sets the behavior of an output
 | 0    | ID    | 1    | BIN  | MBx24 address (ID)                        |
 | 1    | 30    | 1    | BIN  | Set Output Type instruction code          |
 | 2    | O     | 1    | BIN  | Output number (1-32)                      |
-| 3    | T     | 1    | BIN  | Type (See Table 5)                        |
-| 4    | V     | 1    | BIN  | Flashing period (1 sec. x V)              |
-| 5    | I     | 1    | BIN  | Inverted (1 – inverted / 0 – normal)      |
+| 3    | T     | 1    | BIN  | Type (0 - Normal / 1 - Flashing)          |
+| 4    | V     | 1    | BIN  | Flashing period (~300ms x V)              |
+| 5    | I     | 1    | BIN  | Inverted (0 – Normal / 1 – Inverted)      |
 
 ### Table 5 - Output Types
 
@@ -47,6 +47,6 @@ Sets the behavior of an output
 ## Remarks
 
 Parameter ‘V’ ( Received packet, byte[4] ) : The flashing period value is a multiplier to obtain
-multiples of a second. For example, if the flashing period is set to 2, the output will pulse ON for 1
-second and OFF for 1 second. This constitutes a duty cycle of 50% always. The type must be of
+multiples of ~300ms. For example, if the flashing period is set to 3, the output will pulse approximally
+ON for 1 second and OFF for 1 second. This constitutes a duty cycle of 50% always. The type must be of
 ‘Flashing’ type for the flashing feature be valid.
