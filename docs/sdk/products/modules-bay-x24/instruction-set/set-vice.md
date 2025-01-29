@@ -4,7 +4,8 @@ sidebar_position: 1
 
 # Set VICe
 
-Sets or destroys a VICe connector. See MBx24 Features in [*Start here*](https://docs.norairlabs.com/docs/sdk/products/modules-bay-x24/start-here) chapter for more
+Sets or destroys a VICe connector. See MBx24 Features in [*Start here*](https://docs.norairlabs.com/docs/sdk/products/modules-bay-x24/start-here) chapter or
+in [*Terminology & Definitions*](https://docs.norairlabs.com/docs/sdk/protocol/terminlogy-and-definitions) for more
 detail.
 
 ## Request
