@@ -4,6 +4,8 @@ sidebar_position: 1
 
 # Concepts
 
+What is NorAir Frame
+
 The NorAir Frame is a protocol designed to establish communication between a user
 computer and Northern Aircraft Labs hardware. It is based on a message engine consisting of
 instructions and responses that function similarly to a ping-pong scheme.
