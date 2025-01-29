@@ -4,6 +4,8 @@ sidebar_position: 3
 
 # Terminology & Definitions
 
+NorAir Frame basic notions and jargon
+
 ## OBCS (On-Board Computer System)
 The On-Board Computer System (OBCS) is a computer system that manages communications and
 interfaces between a serial device and a joystick device with a user computer. It comprises the C-PORT and the J-PORT.
