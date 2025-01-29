@@ -4,8 +4,11 @@ sidebar_position: 1
 
 # Start Here
 
-A Modules Bay is a device that accommodates NorAirLabs modules, in MBx24 case, up to 24 of
-these modules.
+A Modules Bay is a peripheral that accommodates NorAirLabs modules, in MBx24 case, up to 24 of
+these modules. 
+
+A module is a hardware part with input components, such as switches, and/or output components,
+such as LEDs. There are various models and versions for many applications.
 
 The MBx24 features, beyond others, the flowing:
 - 32 OUTPUTs to actuate LEDs and other low power devices
