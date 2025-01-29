@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Set VICe
 
-Sets or destroys a VICe connector. See MBx24 Features in the beginning of this chapter for more
+Sets or destroys a VICe connector. See MBx24 Features in [*Start here*](https://docs.norairlabs.com/docs/sdk/products/modules-bay-x24/start-here) chapter for more
 detail.
 
 ## Request
@@ -41,7 +41,7 @@ detail.
 Parameter ‘C’ ( Received packet, byte[2] ) : The selected connector must have the same number of
 the connector to associate to. For example, if a VICe connection is to be used in conjunction with
 the switch connected to connector 5, the VICe connector must also be 5. As so, when the switch in
-the connector 5 is turned off, the VICe connector 5 turns on and vice-versa.
+the connector 5 is turned OFF, the VICe connector 5 turns ON and vice-versa.
 
 Parameter ‘J’ ( Received packet, byte[3] ) : The VICe connector is created since the moment one
 joystick button number is assigned to it. Also, the same VICe connector is destroyed if the joystick
