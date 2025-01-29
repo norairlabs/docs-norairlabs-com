@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## 🚀 Overview
 
-The NorAirLabs SDK is designed to help developers integrate and build applications seamlessly with our powerful and flexible tools. This documentation provides all the information you need to get started, including guides, references, and examples.
+The NorAirLabs SDK is designed to help developers integrate and build applications seamlessly with our powerful and flexible tools. This documentation provides all the information you need to get started, including guides, references and examples.
 
 ---
 
