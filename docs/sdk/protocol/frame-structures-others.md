@@ -18,7 +18,7 @@ carries the instruction code. The 30-byte sequence carries the arguments and doe
 transmitted as a full 30-byte array. Any unused remaining bytes may not be transmitted to improve
 speed.
 
-The minimum frame packet length is 3 bytes except when issuing hard and soft resets.
+The minimum frame packet length is 2 bytes.
 
 ## Sent Packets (Answers)
 This frame packet is always a fixed 32-byte packet, even if the expected data frame is smaller.
