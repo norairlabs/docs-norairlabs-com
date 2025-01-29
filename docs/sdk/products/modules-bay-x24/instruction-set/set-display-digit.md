@@ -19,7 +19,7 @@ Sets a display digit with the character constructor supplied.
 | 0    | ID    | 1    | BIN  | MBx24 address (ID)                                |
 | 1    | 50    | 1    | BIN  | Set Display Digit instruction code                |
 | 2    | D     | 1    | BIN  | Display number (1–4)                              |
-| 3    | N     | 1    | BIN  | Digit number (1–4)                                |
+| 3    | N     | 1    | BIN  | Digit number of the display (1–4)                 |
 | 4    | C     | 1    | BIN  | Character constructor supplied                    |
 
 ## Response
@@ -37,6 +37,8 @@ Sets a display digit with the character constructor supplied.
 | 2    | V     | 1    | BIN  | 1 for successful, 0 otherwise         |
 
 ## Remarks
+
+### Character constructor supplied
 
 A display module is composed of 4 numeric digits in a 7-segment configuration. A character
 constructor is a byte with values for a 7-segment scheme where each bit corresponds to a
