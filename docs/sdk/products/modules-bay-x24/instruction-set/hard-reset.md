@@ -20,14 +20,10 @@ peripheral must be re-enumerated.
 | 0    | ID    | 1    | BIN  | MBx24 address (ID)            |
 | 1    | 2     | 1    | BIN  | Hard-Reset instruction code   |
 
-## Response (ASCII)
-
-No Response
-
-## Response (Decimal)
+## Response
 
 No Response
 
 ## Remarks
 
-A minimum period of 8000ms (8secs) is recommended to be kept before another transaction.
+A minimum period of 3000ms (3secs) is recommended to be kept before another transaction.
