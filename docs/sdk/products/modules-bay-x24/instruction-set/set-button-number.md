@@ -4,9 +4,10 @@ sidebar_position: 1
 
 # Set Button Number
 
-Sets the joystick button number that relates with an input connector. For connectors to be useful,
-they must have a connection with a joystick button. This instruction assigns a joystick button
-number to a physical connector. There are 32 input connectors numbered from 1 to 32
+Sets the joystick button number that relates with an input connector. For a connector
+to be useful, must be assigned to it a joystick button. This instruction assigns a
+joystick button number to a physical connector. There are 32 input connectors numbered
+from 1 to 32.
 
 ## Request
 
@@ -16,12 +17,12 @@ number to a physical connector. There are 32 input connectors numbered from 1 to
 
 ## Request Structure
 
-| Byte | Value | Size | Type | Description                                |
-|------|-------|------|------|--------------------------------------------|
+| Byte | Value | Size | Type | Description                               |
+|------|-------|------|------|-------------------------------------------|
 | 0    | ID    | 1    | BIN  | MBx24 address (ID)                        |
 | 1    | 80    | 1    | BIN  | Set Button Number instruction code        |
-| 2    | I     | 1    | BIN  | Output number (1-32)                      |
-| 3    | J     | 1    | BIN  | Joystick button number (1-200)            |
+| 2    | I     | 1    | BIN  | Output connector number (1-32)            |
+| 3    | J     | 1    | BIN  | Assigned joystick button number (1-200)   |
 
 ## Response
 
@@ -40,7 +41,7 @@ number to a physical connector. There are 32 input connectors numbered from 1 to
 ## Remarks
 
 On power up or after hard-reset, the default joystick buttons number assign to input connectors
-range from 51 to 82, i.e., connector 1 is assigned to joystick button number 51. This may be
+range from 50 to 81, i.e., connector 1 is assigned to joystick button number 50. This may be
 changed in bulk by other instructions or one input at a time.
 
 Care should be taken to not overlap other joystick buttons number already assigned to avoid
