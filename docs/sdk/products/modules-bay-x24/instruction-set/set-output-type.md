@@ -49,4 +49,5 @@ Sets the behavior of an output
 Parameter ‘V’ ( Received packet, byte[4] ) : The flashing period value is a multiplier to obtain
 multiples of ~300ms. For example, if the flashing period is set to 3, the output will pulse approximally
 ON for 1 second and OFF for 1 second. This constitutes a duty cycle of 50% always. The type must be of
-‘Flashing’ type for the flashing feature be valid.
+‘Flashing’ type for the flashing feature be valid. This is useful to make, for example, LEDs flash
+independently with flashing cycles diferent from each other.
