@@ -3,9 +3,11 @@ sidebar_position: 4
 ---
 # Frame Structures & Others
 
+NorAir Frame structures overview
+
 ## Structures Overview
-The frame packets are shown in their raw form. They are structured in symbolic tables of 32
-bytes, ordered from left to right, where the leftmost byte is the first byte the OBCS will receive.
+In this manual, the frame packets are shown in their raw form. They are structured in symbolic tables
+of 32 bytes, ordered from left to right, where the leftmost byte is the first byte the OBCS will receive.
 
 A message is a frame packet composed of sequential bytes with a header and data frames.
 
@@ -16,12 +18,12 @@ carries the instruction code. The 30-byte sequence carries the arguments and doe
 transmitted as a full 30-byte array. Any unused remaining bytes may not be transmitted to improve
 speed.
 
-The minimum frame packet length is 3 bytes.
+The minimum frame packet length is 3 bytes except when issuing hard and soft resets.
 
 ## Sent Packets (Answers)
 This frame packet is always a fixed 32-byte packet, even if the expected data frame is smaller.
-Like a received packet, it has a 2-byte header frame, but it includes a 30-byte data frame. The
-header frame is the same as the received one, used to identify the source of the sender and the
+Like a received packet, it has a 2-byte header but it includes a 30-byte data frame. The
+header is the same as the received one, used to identify the source of the sender and the
 instruction. An exception is made when the OBCS issues an error message.
 
 In such cases, the header carries 0xFF followed by the peripheral and type of error.
@@ -29,10 +31,10 @@ See the OBCS ERROR MESSAGES section for in-depth details.
 The 30-byte data frame contents are specific to each instruction.
 
 ## Nomenclature
-All presented values are in base 10 unless otherwise noted.
+All presented values are in base 10 unless otherwise noted. Hexadecimal values are preceeded by '0x'.
 
 ## Error Reporting
-Any peripheral will report if an error occurs. A peripheral will indicate the success of an instruction
+Any peripheral may report if an error occurs. A peripheral will indicate the success of an instruction
 with a value of 1, the failure to accomplish or a malformed instruction with a value of 0, and 63
 (0x3F) if it does not understand the request. For easy reference, 63 corresponds to the '?' character.
 
