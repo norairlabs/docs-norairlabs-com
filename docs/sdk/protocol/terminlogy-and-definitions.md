@@ -6,7 +6,7 @@ sidebar_position: 3
 
 ## OBCS (On-Board Computer System)
 The On-Board Computer System (OBCS) is a computer system that manages communications and
-interfaces between a serial device and a joystick device with a user computer. It comprises the CPORT and the J-PORT.
+interfaces between a serial device and a joystick device with a user computer. It comprises the C-PORT and the J-PORT.
 
 ## C-PORT (Communications Port)
 The C-Port, short for Communications Port, is a component of the OBCS. It is a high-speed serial
@@ -16,11 +16,11 @@ port that connects the OBCS to a computer via a USB port.
 The J-Port serves as an interface to an internally managed joystick as part of the OBCS, supporting
 200 joystick buttons and nine axes. It has its own processor for fast performance and includes a
 highly efficient button management engine that allows, among other functions, the control of
-button behavior, manipulation, or retrieval of its logical state. As an OBCS component, the J-Port is
-accessed through the OBCS. Therefore, even if no peripheral is attached to the OBCS, one can
+button behavior, manipulation or retrieval of their logical states. As an OBCS component, the J-Port
+is accessed through the OBCS. Therefore, even if no peripheral is attached to the OBCS, one can
 interact with the J-Port independently. When the terms "J-Port" or "Joystick" are used, they may be
 perceived as the same entity since they are part of the same hardware. Similarly to peripherals, the
-J-Port is accessible through the same messaging system to perform actions, configurations, or
+J-Port is accessible through the same messaging system to perform actions, configurations or
 report useful data. It is a quick and versatile system with an easy interface. Additionally, the J-Port
 has an enumeration process used for J-Port dedicated peripherals like the Servo Controlled
 Throttle. This procedure is similar, if not identical, to that of the OBCS.
@@ -32,9 +32,9 @@ encoder push-buttons can be mapped and accessed as joystick buttons. A hardware 
 management system is implemented, allowing users to adjust its brightness.
 
 ## MBx24 (Modules Bay)
-The Modules Bay (MBx24) is a bay designed for 24 input/output modules. This peripheral supports
+The Modules Bay (MBx24) is a bay designed for input and/or output modules. This peripheral supports
 up to 24 modules, such as switches and annunciators. It features 32 output connectors, 32 input
-connectors for attaching modules, and 32 VICe connectors. It also accommodates up to eight
+connectors for attaching modules and 32 VICe connectors. It also accommodates up to eight
 encoders and sixteen 7-segment display digits.
 
 ## WALL – Broadcasting Messages
@@ -44,13 +44,14 @@ color settings, this is very useful and avoids the need to instruct each periphe
 
 ## Serial Numbers - Decomposition and Meaning
 The first two digits of a serial number represent the type of hardware to handle. For example, if a serial number is
-"3123456789," the first two digits, "31," designate it as an RNS peripheral (Radio & Navigation System). This provides a
+"3123456789," the first two digits, "31", designate it as a RNS peripheral (Radio & Navigation System). This provides a
 simple and quick way to access a peripheral without requiring additional communication or other methods to determine
 the hardware model.
 
 ## Enumeration of Peripherals
 Peripheral enumeration is the registration process of a peripheral's serial number in the OBCS. When enumerating a
-peripheral, the user supplies an "ID" for communication purposes.
+peripheral, the user supplies an "ID" for communication purposes, allowing the peripheral to be accessed by this ID
+in a clean and simple way.
 
 ## Peripherals ID
 The "ID" is the "callsign" of a peripheral. After properly enumerating a peripheral in the OBCS, the peripheral will ONLY be
