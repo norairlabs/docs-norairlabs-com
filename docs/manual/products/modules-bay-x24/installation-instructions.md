@@ -15,8 +15,8 @@ Features 24 bays for modules, own programmable high speed processing unit, a RGB
 
 ## Installation
 Installing a MBx24 is fairly simple using the following steps.
-1. Make sure that the front panel power control switch is in the “Shutdown” position.
-2. Choose an installation place at your discretion. It must be moisture and dust free.
+1. Make sure that the OBCS front panel power control switch is in the “Shutdown” position.
+2. Choose an installation place at your discretion. It must be moisture and dust free, ideally in a vetilated area.
 3. Lay down the cable until it reaches your OBCS and connect the plug to any of the OBCS peripherals ports:
   * Match the white circle of the plug with the white circle of the OBCS connector (upwards)
   * With care, Insert the plug in that position
