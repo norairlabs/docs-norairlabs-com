@@ -14,6 +14,7 @@ It is a peripheral which includes 32 input connectors for switches, buttons, etc
 Features 24 bays for modules, own programmable high speed processing unit, a RGBW backlit and only one cable is used for connections.
 
 ## Installation
+
 Installing a MBx24 is fairly simple using the following steps.
 1. Make sure that the OBCS front panel power control switch is in the “Shutdown” position.
 2. Choose an installation place at your discretion. It must be moisture and dust free, ideally in a vetilated area.
@@ -26,8 +27,11 @@ Installing a MBx24 is fairly simple using the following steps.
 * Adjust to the intended position
 * Tight both knobs
 <br/>
+
 ## First power up
-The MBx24 power is delivered by OBCS power unit. Turn the OBCS front panel power control switch to “Power ON”. The MBx24 self-test starts immediately and takes a few seconds. 
-When the backlit turns on, the hardware is ready.
+
+The MBx24 power is delivered by OBCS power unit.<br/>
+Turn the OBCS front panel power control switch to “Power ON”. The MBx24 self-test starts immediately and takes a few seconds. 
+When the backlit turns on, the hardware is ready.<br/>
 Write down the MBx24 serial number. It can be found on the identifying back plate. It will be needed for configurations and enumerations.<br/>
 Use the TOGA software to set up your MBx24. It is free and can be downloaded HERE. Also, you may download the SDK and create your own software.
