@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# Installation Instructions
+# Connector Installation
 
 How to install a MBx24
 
