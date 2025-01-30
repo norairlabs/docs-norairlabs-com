@@ -7,7 +7,6 @@ sidebar_position: 1
 How to install a MBx24
 
 ## Introduction
-
 <img align="right" width="200" src="../../../../static/img/MBx24.svg">
 The Modules Bay  interfaces the real world with simulation software. It provides an easy way to collect data from the physical world that can be used by simulation software.
 It is a peripheral which includes 32 input connectors for switches, buttons, etc., and 32 outputs for LEDs and low power digital devices.<br/>
@@ -15,7 +14,6 @@ Also, it virtualizes more 32 inputs to allow simultaneous inverted actions of th
 Features 24 bays for modules, own programmable high speed processing unit, a RGBW backlit and only one cable is used for connections.
 
 ## Installation
-
 Installing a MBx24 is fairly simple using the following steps.
 1. Make sure that the OBCS front panel power control switch is in the “Shutdown” position.
 2. Choose an installation place at your discretion. It must be moisture and dust free, ideally in a vetilated area.
@@ -27,10 +25,8 @@ Installing a MBx24 is fairly simple using the following steps.
 * Releasing both side knobs lightly
 * Adjust to the intended position
 * Tight both knobs
-<br/>
 
 ## First power up
-
 The MBx24 power is delivered by OBCS power unit.<br/>
 Turn the OBCS front panel power control switch to “Power ON”. The MBx24 self-test starts immediately and takes a few seconds. 
 When the backlit turns on, the hardware is ready.<br/>
