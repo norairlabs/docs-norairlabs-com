@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Errors
 
-Besides the errors reported while using an instruction, the RNS can also return instead an error
+Besides the errors reported while using an instruction, the MBx24 can also return instead an error
 message if an invalid instruction is received.
 
 ## Response
@@ -17,5 +17,9 @@ message if an invalid instruction is received.
 
 | Byte | Value | Size | Type | Description                             |
 |------|-------|------|------|-----------------------------------------|
-| 0    | ID    | 1    | BIN  | RNS address (ID)                       |
-| 1    | 63    | 1    | BIN  | ERROR: Unknown instruction (ASCII ‘?’) |
+| 0    | ID    | 1    | BIN  | MBx24 address (ID)                      |
+| 1    | 63    | 1    | BIN  | ERROR: Unknown instruction (ASCII ‘?’)  |
+
+## Meaning
+
+The instruction was not recognised by the MBx24
