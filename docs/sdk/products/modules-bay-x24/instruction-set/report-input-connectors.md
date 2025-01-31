@@ -5,8 +5,8 @@ sidebar_position: 2
 # Report Input Connectors
 
 Returns the input connectors logic state in bulk. This instruction offers a way of knowing the logic
-state of each input connector. It returns a byte array with four 8-bit clusters with the 32 input
-connectors.
+state of all input connectors in one go. It returns a byte array with four 8-bit clusters with the 32 input
+connectors logic states.
 
 ## Request
 
