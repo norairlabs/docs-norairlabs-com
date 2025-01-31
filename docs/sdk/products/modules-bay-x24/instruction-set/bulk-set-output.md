@@ -4,7 +4,9 @@ sidebar_position: 7
 
 # Bulk Set Output
 
-Sets all outputs in one go. If all output logic status are managed by an external application (for example, by a computer application), this
+Sets all outputs in one go.
+
+If all output logic status are managed by an external application (for example, by a computer application), this
 instruction allows freedom, speed of execution and a significant time saving. Differently from setting one output at a time, the bulk
 set output is simplier and faster by passing this work to MBx24 it self. It is bit oriented by clustering 8 outputs in a byte where ones ('1')
 mean an ON state and zeros ('0') the OFF state.
