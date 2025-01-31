@@ -40,8 +40,6 @@ Sets the color of an individual Backlit LED. This will change the RGBW color set
 
 ## Remarks
 
-The Backlit comprises 64 RGBW LEDs. Although made to seem all equal, there are always small
-differences between them. There are not two exactly equal. Setting a RGBW color to one or all of
-these, doesn’t ensure a perfect color matching with any color standards as the goal is to provide
-ambience light at user will. Also, there may be significant deviations from what is expected. Users
-should try some variations or combinations before deciding a color.
+The Backlit comprises 64 RGBW LEDs. Although made to seem all equal, there are always small differences between them. There are not two exactly equal. Setting a RGBW color to one or all of these, doesn’t ensure a perfect color matching with any color standards as the goal is to provide ambience light at user will. Also, there may be significant deviations from what is expected. Users are encouraged to try some variations or combinations before deciding a color.
+
+Brightness varies from color to color. The white component is usually much more brighter than others components since it is a physically separated LED.
