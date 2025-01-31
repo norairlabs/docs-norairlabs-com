@@ -20,10 +20,14 @@ peripheral does not need to be re-enumerated.
 | 0    | ID    | 1    | BIN  | MBx24 address (ID)            |
 | 1    | 4     | 1    | BIN  | Soft-Reset instruction code   |
 
-## Response (ASCII)
+## Response
 
 No Response
 
-## Response (Decimal)
+## Remarks
+
+Soft reset does not affect enumeration. It restores to factory defaults the backlit color, output and input settings.
+The MBx24 address ID remains the one of the last enumaration. At least 3000ms should be waited to conclude the task as this
+instruction doesn't have a response.
 
 No Response
