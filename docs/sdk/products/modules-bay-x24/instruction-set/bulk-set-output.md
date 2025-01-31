@@ -52,7 +52,7 @@ Fourth output bank (S4) -> Outputs from 25 to 32.
 
 ## 8-Bit Bank Layout
 
-| MSG 7 | 6 | 5 | 4 | 3 | 2 | 1 | LSB 0 |
+| MSB 7 | 6 | 5 | 4 | 3 | 2 | 1 | LSB 0 |
 |---|---|---|---|---|---|-----|---|
 | O1 | O2 | O3 | O4 | O5 | O6 | O7 | O8 |
 
