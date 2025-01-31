@@ -61,7 +61,7 @@ represented by the Most Significant bit ( MSB ) of the value. If the MSB is 1, t
 **Table 3 - Encoder returned value if 85 steps**
 In table 3, if MSB is **1**, the resulting step counter is **-85**. If MSB is **0**, the step counter is **85**.
 
-#### Simplest Way to Retrieve Steps Count and Magnitude:
+#### A simple way to retrieve steps count and magnitude:
 
 #### a) Declare a variable for each value:
 ```
