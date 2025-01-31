@@ -32,7 +32,7 @@ connectors logic states.
 | Byte | Value | Size | Type | Description                                    |
 |------|-------|------|------|------------------------------------------------|
 | 0    | ID    | 1    | BIN  | MBx24 address (ID)                            |
-| 1    | 55    | 1    | BIN  | Toggle Output instruction code                |
+| 1    | 55    | 1    | BIN  | Report Input Connectors instruction code     |
 | 2    | B1    | 1    | BIN  | 1st input connectors 8-bit bank              |
 | 3    | B2    | 1    | BIN  | 2nd input connectors 8-bit bank              |
 | 4    | B3    | 1    | BIN  | 3rd input connectors 8-bit bank              |
