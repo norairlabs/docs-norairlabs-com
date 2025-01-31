@@ -40,7 +40,7 @@ connectors logic states.
 
 ## 8-Bit Bank Layout
 
-| MSG 7 | 6 | 5 | 4 | 3 | 2 | 1 | LSB 0 |
+| MSB 7 | 6 | 5 | 4 | 3 | 2 | 1 | LSB 0 |
 |---|---|---|---|---|---|-----|---|
 | C1 | C2 | C3 | C4 | C5 | C6 | C7 | C8 |
 
