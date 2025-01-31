@@ -6,11 +6,15 @@ sidebar_position: 1
 
 Basis of a MBx24 & how it works
 
-A Modules Bay is a peripheral that accommodates NorAirLabs modules, in MBx24 case, up to 24 of
+A Modules Bay is a peripheral that accommodates NorAirLabs modules. In the MBx24 case, up to 24 of
 these modules. 
 
 A module is a hardware part with input components, such as switches, and/or output components,
-such as LEDs. There are various models and versions for many applications.
+such as LEDs. There are various models and versions for many applications:
+
+[Annunciators](https://norairlabs.com/product-category/module-bays/annunciators/) - Outputs (displays) the logic states of systems and/or parts, for example, turns ON when a failure occurs, a landing gear is extended or a truck engine overheated. It can also flash to call the user attention.
+
+[Switches](https://norairlabs.com/product-category/module-bays/switches/) & [Push Buttons](https://norairlabs.com/product-category/module-bays/push-buttons/) - Activates features (turns ON or OFF) such as lights, handbreaks, train whistles, turning signals, etc.
 
 The MBx24 features, beyond others, the flowing:
 - 32 OUTPUTs to actuate LEDs and other low power devices
