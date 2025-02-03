@@ -6,8 +6,6 @@ sidebar_position: 2
 
 Broadcasts the backlit color to **all** peripherals.
 
-## See also
-- [J-PORT Soft-Reset](../j-port/soft-reset.md)
 
 ## Request
 
