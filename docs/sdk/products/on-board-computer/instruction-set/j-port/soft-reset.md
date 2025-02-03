@@ -7,7 +7,7 @@ sidebar_position: 2
 Issues a soft-reset to the J-PORT. All buttons settings are returned to factory defaults. Enumeration is
 kept. Peripherals are not affected by this instruction, but a new buttons configuration must be made.
 
-You **must** execute a soft-reset before setting up joystick buttons, especially after a hard-reset.
+You **must** execute a soft-reset before the set up of joystick buttons begins, especially after a hard-reset.
 
 ## Request
 
