@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Start Here
 
-Basis of a MBx24 & how it works
+### Basis of a MBx24 & how it works
 
 A Modules Bay is a peripheral that accommodates NorAirLabs modules. In the MBx24 case, up to 24 of
 these modules. 
@@ -31,4 +31,43 @@ be created virtually as a VICe with an additional joystick button number, saving
 connector although occupying a joystick button number. This may not be an issue when there are
 199 more available.
 
+### Concepts
+
 Every time 'ID' expression is used, it refers to ID attributed by enumeration. The MBx24 default ID is 50.
+
+*Buttons* and *Connectors* are different things.
+
+A 'Button' is a ***joystick button*** input and can be numbered from 1 to 200. This is a feature of
+the OBCS hardware, not of the MBx24.
+
+Each MBx24 has 32 'connectors', known as input connectors or even "In connectors".
+These are numbered from 1 to 32 and each one has a correspondence to a ***joystick
+button number*** of the OBCS hardware. This way, when a *connector* is actuacted,
+the correspondent *joystick button* responds to the simulation environment in the
+same way. In a simple way, turn ON a connector and the simulation sees a joystick
+button being pressed. One just have to define which joystick button number is this.
+
+Assigned joystick buttons number defaults to "ID value" until "ID + 31"
+after enumeration.
+
+For example, if ID is 50, joystick buttons number for this MBx24 will range from 50
+to 81. This means that connector 1 is the joystick button number 50, connector 2 is the joystick
+button number 51 and so on until connector 32 is the joystick button 81.
+
+This is fully reversible to what range is needed by setting it with the *First button Number* 
+instruction. For further details, see [Set First Button Number](./instruction-set/set-first-button-number.md)
+
+### Responses and actions
+
+The MBx24 gives a response to almost all instructions sent to it. This is an important feature
+and should be used as part of procedures.
+
+Normally, the response returns a header with the hardware address, or ID, followed by the
+instruction requested and, when appropriate, the result of the execution. This last should
+be read and interperted every time to correct actions if needed. All instructions that have
+meaningful responses are documented here.
+
+For smooth running, it is advisable to read the responses the hardware sends to check if
+the requests was fulfilled.
+
+*Responses* exist to assist development, debuging and running software.
