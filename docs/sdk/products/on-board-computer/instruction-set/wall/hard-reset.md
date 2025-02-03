@@ -35,4 +35,4 @@ No Response
 
 ## Remarks
 
-A minimum period of 3000ms (2secs) is recommended to be kept before attempting a new request.
+A minimum period of 3000ms (3secs) is recommended to be kept before attempting a new request.
