@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Set Maximim Frequency
+# Set Maximum Frequency
 
 Sets the maximum frequency of a COMM, NAV or ADF instrument. For ADF, the 5th and 6th digits
 have no meaning. When the maximum frequency is reached by incrementing, the instrument
