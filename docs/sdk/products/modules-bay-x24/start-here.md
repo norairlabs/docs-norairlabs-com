@@ -6,6 +6,7 @@ sidebar_position: 1
 
 ### Basis of a MBx24 & how it works
 
+<img src="./MBx24.png" align="right">MBx24</img>
 A Modules Bay is a peripheral that accommodates NorAirLabs modules. In the MBx24 case, up to 24 of
 these modules. 
 
