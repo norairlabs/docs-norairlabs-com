@@ -4,6 +4,10 @@ sidebar_position: 1
 
 # Start Here
 
+![](../../../../static/img/RNS.png)
+
+## Introduction
+
 The Radio & Navigation System is composed of 4 instruments:
 
 - The COMM radio, used for communications with other entities.
@@ -37,9 +41,11 @@ management, as showed in table 2.
 
 **Table 2** - Decomposed instruments data
 
+## Remarks
 
 For a better understanding, the reason these instruments values are divided into integer and
 decimal parts is because they reflect directly encoder movements. This gives freedom for users to
 even change encoder attributes without knowing how the internal encoder drive engine works while
 manipulating these and other values. Take note that all eight encoders present are completely
+
 independent from each other’s and have their own individual processes, so there is total flexibility.
