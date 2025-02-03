@@ -6,8 +6,7 @@ sidebar_position: 2
 
 Broadcasts the backlit color to **all** peripherals per individual led.
 
-## See also
-- [J-PORT Soft-Reset](../j-port/soft-reset.md)
+This lights up one led with the specified RGBW color in all backlit supported peripherals.
 
 ## Request
 
