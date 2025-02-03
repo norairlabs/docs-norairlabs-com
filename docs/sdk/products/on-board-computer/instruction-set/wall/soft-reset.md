@@ -4,8 +4,11 @@ sidebar_position: 2
 
 # Global Soft Reset
 
-Broadcasts a soft-reset to all peripherals and J-PORT. Does not affect the OBCS since it has no soft-reset
-capabilities. Care should be taken to observe the side effects in each device affected.
+Broadcasts a soft-reset to all peripherals and J-PORT.
+
+Does not affect the OBCS since it has no soft-reset capabilities.
+
+Care should be taken to observe the side effects in each device affected.
 
 ## See also
 - [J-PORT Soft-Reset](../j-port/soft-reset.md)
@@ -33,4 +36,4 @@ No Response
 
 ## Remarks
 
-A minimum period of 2000ms (2secs) is recommended to be kept before attempting a new request.
+A minimum period of 3000ms (3secs) is recommended to be kept before attempting a new request.
