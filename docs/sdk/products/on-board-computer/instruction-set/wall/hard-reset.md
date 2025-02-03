@@ -4,8 +4,9 @@ sidebar_position: 2
 
 # Global Hard Reset
 
-Broadcasts a hard-reset to all peripherals and J-PORT. Does not affect the OBCS. For this, a dedicated
-OBCS hard-reset instruction must be done immediately after, if desired.
+Broadcasts a hard-reset to all peripherals and J-PORT.
+
+Does not affect the OBCS. For this, a dedicated OBCS hard-reset instruction must be done immediately after, if desired.
 
 ## See also
 - [OBCS Hard-Reset](../c-port/hard-reset.md)
