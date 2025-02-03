@@ -20,6 +20,18 @@ The J-PORT, the 200 buttons joystick device
 
 The C-PORT, a serial port for communications.
 
+## Organization
+
+The OBCS documentation is divided in:
+
+a) Instructions set
+
+* The C-PORT instructions, the serial comunication engine instructions
+* The J-PORT instructions, the joystick management system instructions
+* The WALL instructions, the broadcast messaging system instructions
+
+b) Error messages of both ports
+
 
 ## Installation
 
