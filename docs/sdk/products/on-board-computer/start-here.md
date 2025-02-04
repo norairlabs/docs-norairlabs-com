@@ -9,7 +9,7 @@ sidebar_position: 1
 ## Introduction
 
 The On Board Computer System (OBCS) by NorAir Labs is an all-in-one hardware package
-designed to provide seamless power, input, and output management without cable entanglement.
+designed to provide seamless power, input and output management without cable entanglement.
 
 It is a two core computer that accommodates a 200 buttons joystick and a serial COM port.
 This last allows users to talk to the OBCS, to the joystick and to the peripherals.
