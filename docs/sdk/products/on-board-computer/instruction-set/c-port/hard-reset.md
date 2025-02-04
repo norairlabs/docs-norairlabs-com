@@ -18,7 +18,7 @@ are not affected by this command.
 | Byte | Value | Size | Type | Description                              |
 |------|-------|------|------|------------------------------------------|
 | 0    | 99   | 1    | BIN  | OBCS Address                    |
-| 1    | 10    | 1    | BIN  | Hard-Reset instruction code    |
+| 1    | 2    | 1    | BIN  | Hard-Reset instruction code    |
 
 ## Response (ASCII)
 
