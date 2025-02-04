@@ -70,6 +70,17 @@ This window is divided into two wings:
 
 Here you can set up your push-buttons and switches, making them correspond to joystick buttons.
 
+This is factory defaulted to begin in the joystick button number 50 and end at 81.
+
+>[!TIP]
+>Select a different range for your joystick buttons number. Use the ***First button*** field to
+>change it to whatever suits you better. You my try to select '1' and all the joystick buttons number
+>range will automatically and imediatly change to 1 up to 31.
+
+>[!TIP]
+>Check the ***Interpolate*** tick box to have your joystick buttons numbers interpolated, i.e, set to only
+>even or odd numbers. It is usefull if using VICes in sequence with joystick buttons numbers.
+
 Turn ON one push-button or switch. This will light up its connector on the very left, under _Input connector_.
 
 Insert a description that identifies it like 'Landing lights', 'Truck horn', etc.
