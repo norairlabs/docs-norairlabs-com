@@ -33,7 +33,7 @@ operating systems as a pure joystick.
 
 All other hardware connects to this computer to form a network managed automatically.
 
-These others devices are know as ***peripherals*** and have their own individual and
+These peripherals from NorAir Labs devices are know as ***peripherals*** and have their own individual and
 autonomous processing units.
 
 These connections are made using single included cables, transporting power and signal.
@@ -43,3 +43,7 @@ These connections are made using single included cables, transporting power and 
 If you're looking for development tools, please visit our [SDK pages](../sdk/index.md)
 to learn how to use NorAir Frame and make your own API.
 
+***Only Northern Aircraft Labs peripherals can be connected to this network. Failures and
+damages to the equipment, goods and people will arise if other hardware is connected***
+
+***Comply to safety procedures, either general or specific to NorAir Labs equipment.***
