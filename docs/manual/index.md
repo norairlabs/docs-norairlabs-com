@@ -46,8 +46,10 @@ to learn how to use NorAir Frame and make your own API.
 Not all simulation software supports a 200 button joystick. In this cases, users are limited
 to the number of buttons supported by the software.
 
-Though, users can use workarrounds, for example, acquiring a joystick button logic state,
-creating a keyboard stroke and sending it to the simulation software, i.e., creating a *Ghostkey*.
+Nevertheless, users can use workarrounds. For example, acquiring a joystick button logic state,
+creating a keyboard stroke and sending it to the simulation software, i.e., creating a *Ghostkey*
+its a simple way as, most of the times, the simulators accept keyboard inputs.
+
 For further details, see the [SDK joystick section](../sdk/products/on-board-computer/instruction-set/j-port/report-buttons.md).
 
 ***Only Northern Aircraft Labs peripherals can be connected to this network. Failures and
