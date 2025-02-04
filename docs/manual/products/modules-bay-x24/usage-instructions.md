@@ -84,7 +84,8 @@ If required, select a joystick button for its VICe connector. When the push-butt
 is not actuated, the joystick button attributed to this connector will turn ON. The same happens
 in the reverse situation.
 
-***Important note***: _If a joystick button is attributed to two or more connectors, VICes included,
+> [!WARNING]
+>  _If a joystick button is attributed to two or more connectors, VICes included,
 unexpected behaviour may accour!_
 
 ### Annunciators setup
@@ -99,8 +100,10 @@ If not, try the next one until one lights up.
 
 Close the pop up message.
 
-Insert the text written in the annunciator window into the description. This allows its
-identification later, when creating profiles.
+Insert the text written in the annunciator window into the description.
+
+>[!TIP]
+>This description is used for its identification later, when creating profiles.
 
 Select the behaviour of this annunciator by turning on or off the settings ***Flashing*** or ***Inverted***.
 
@@ -112,9 +115,13 @@ On the top-right side of the window, press ***Save*** to save the peripheral con
 
 Pressing ***Close*** will close this window.
 
-***Important note***: _Pressing ***Close*** without saving will cancel the modifications made
-during this set up._
+> [!IMPORTANT]
+> _Pressing ***Close*** without saving will cancel the modifications made during this set up._
 
+
+## Congratulations
+
+Your MBx24 is now configured and ready!
 
 
 
