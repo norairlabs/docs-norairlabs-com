@@ -6,18 +6,19 @@ sidebar_position: 3
 
 How to use the RNS peripheral
 
-## Before first run
+## Default values
 
 The RNS peripheral has, as factory defaults, assigned OBCS joystick buttons
 from 1 to 4 to each knob:
 
-1 - COMM knob push-button
-2 - NAV knob push-button
-3 - ADF knob push-button
-4 - XPDR knob push-button
+|Push-button|Assigned joystick button|
+|---|---|
+|COMM knob push-button|<p align="right">1</p>|
+|NAV knob push-button|<p align="right">2</p>|
+|ADF knob push-button|<p align="right">3</p>|
+|XPDR knob push-button|<p align="right">4</p>|
 
 This can be changed by the TOGA software provided.
-## Default values
 
 Each instrument in your RNS have factory default values.
 
@@ -26,7 +27,6 @@ These values can be changed with the TOGA software very easily.
 > ❗ ***Note***
 > 
 > The RNS restore these values to factory default at power up, after every hard or soft resets.
-
 
 
 | Instrument | Field | Default value|Integer increment|Decimal increment|
