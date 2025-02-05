@@ -14,7 +14,7 @@ from 50 to 81. This can be changed by the TOGA software provided.
 ## Powering up
 
 When the MBx24 is powered by the onboard computer system, it lights up all
-annunciators for breef moments, allowing the user to check them. Then, these
+annunciators for brief moments, allowing the user to check them. Then, these
 are turned off and the backlit RGBW lights on with the default color. Your
 MBx24 is ready.
 
@@ -111,7 +111,7 @@ unexpected behaviour may accour!_
 
 Here your can set up annunciators.
 
-Press ***Test*** on an output connector. A pop up message appears with ***Truning ON connector XX***,
+Press ***Test*** on an output connector. A pop up message appears with ***Turning ON connector XX***,
 where XX is the connector number.
 
 If an annunciator lights ON, this means that this is its connector.
