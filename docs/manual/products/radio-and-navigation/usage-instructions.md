@@ -31,18 +31,19 @@ These values can be changed with the TOGA software very easily.
 
 | Instrument | Field | Default value|Integer increment|Decimal increment|
 |---|---|---|---|---|
-|COMM|Active/Standby maximum frequency|136.975|1|25|
-|COMM|Active/Standby minimum frequency|118.000|1|25|
-||||
-|NAV|Active/Standby maximum frequency|117.950|1|50|
-|NAV|Active/Standby minimum frequency|108.000|1|50|
-||||
-|ADF|Maximum frequency|9999|1|1|
-|ADF|Minimum frequency|0000|1|1|
-||||
-|XPDR|Maximum squawk code|7777|1|1|
-|XPDR|Minimum squawk code|0000|1|1|
-||||
+|COMM|
+|    |Active/Standby maximum frequency|136.975|1|25|
+|    |Active/Standby minimum frequency|118.000|1|25|
+|NAV|
+|    |Active/Standby maximum frequency|117.950|1|50|
+|    |Active/Standby minimum frequency|108.000|1|50|
+|ADF|
+|   |Maximum frequency|9999|1|1|
+|   |Minimum frequency|0000|1|1|
+|XPDR|
+|    |Maximum squawk code|7777|1|1|
+|    |Minimum squawk code|0000|1|1|
+
 
 
 ## Powering up
