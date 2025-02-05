@@ -41,7 +41,7 @@ Your MBx24 is now declared and ready to be configured.
 In the TOGA app, select the first tab at left ***Peripherals setup***.
 
 At the bottom of this window, a joystick buttons matrix is displayed, named
-*** Joystick buttons status***.
+***Joystick buttons status***.
 
 Turn ON and OFF some push-buttons or switches and the matching joystick
 button will light ON or OFF. If VICes are attributed to connectors, these
