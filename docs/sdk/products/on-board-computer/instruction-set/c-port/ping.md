@@ -18,7 +18,7 @@ Exceptionally, the answer’s header consists of two '9's to facilitate easier i
 | Byte | Value | Size | Type | Description                              |
 |------|-------|------|------|------------------------------------------|
 | 0    | 99   | 1    | BIN  | OBCS Address                    |
-| 1    | 10    | 1    | BIN  | PING instruction code    |
+| 1    | 6   | 1    | BIN  | PING instruction code    |
 
 ## Response (ASCII)
 
