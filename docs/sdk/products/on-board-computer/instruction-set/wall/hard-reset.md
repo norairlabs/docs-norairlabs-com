@@ -8,6 +8,8 @@ Broadcasts a hard-reset to all peripherals and J-PORT.
 
 Does not affect the OBCS. For this, a dedicated OBCS hard-reset instruction must be done immediately after, if desired.
 
+All peripherals enumeration data is lost. These must be enumerated again.
+
 ## See also
 - [OBCS Hard-Reset](../c-port/hard-reset.md)
 - [J-PORT Hard-Reset](../j-port/hard-reset.md)
