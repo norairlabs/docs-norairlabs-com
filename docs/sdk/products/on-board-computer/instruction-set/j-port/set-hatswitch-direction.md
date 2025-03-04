@@ -2,9 +2,9 @@
 sidebar_position: 2
 ---
 
-# hatswitch direction
+# Hat switch direction
 
-Sets the heading of the hatswitch.
+Sets the heading of the hat switch.
 
 ## Request
 
@@ -17,12 +17,12 @@ Sets the heading of the hatswitch.
 | Byte | Value | Size | Type | Description                |
 |------|-------|------|------|----------------------------|
 | 0    | 10    | 1    | BIN  | J-PORT address            |
-| 1    | 24    | 1    | BIN  | Set hatswitch direction instruction code |
+| 1    | 24    | 1    | BIN  | Set hat switch direction instruction code |
 | 2    | D     | 1    | BIN  | Direction (0..8)  (see table)|
 
 ## Direction
 
-| Type | Behavior                 |
+| Type | Direction                 |
 |------|--------------------------|
 | 0    | NORTH (front)             |
 | 1    | NORTHEAST (front-right)           |
@@ -45,5 +45,5 @@ Sets the heading of the hatswitch.
 | Byte | Value | Size | Type | Description                               |
 |------|-------|------|------|-------------------------------------------|
 | 0    | 10    | 1    | BIN  | J-PORT address                           |
-| 1    | 24    | 1    | BIN  |Set hatswitch direction instruction code              |
+| 1    | 24    | 1    | BIN  |Set hat switch direction instruction code              |
 | 2    | V     | 1    | BIN  |Allways 1. On invalid direction, NULL (8) is assumed  |
