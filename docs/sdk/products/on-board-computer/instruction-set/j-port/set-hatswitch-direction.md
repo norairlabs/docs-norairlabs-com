@@ -18,11 +18,11 @@ Sets the heading of the hat switch.
 |------|-------|------|------|----------------------------|
 | 0    | 10    | 1    | BIN  | J-PORT address            |
 | 1    | 24    | 1    | BIN  | Set hat switch direction instruction code |
-| 2    | D     | 1    | BIN  | Direction (0..8)  (see table)|
+| 2    | D     | 1    | BIN  | Direction value (0..8)  (see table)|
 
 ## Direction
 
-| Type | Direction                 |
+| Value | Direction                 |
 |------|--------------------------|
 | 0    | NORTH (front)             |
 | 1    | NORTHEAST (front-right)           |
