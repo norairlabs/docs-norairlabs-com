@@ -32,7 +32,7 @@ Sets the heading of the hat switch.
 | 5    | SOUTHWEST (back-left)|
 | 6    | WEST (left)  |
 | 7    | NORTHWEST (front-left) |
-| 8    | NULL (no direction / centered)  |
+| 8    | No direction or centered)  |
 
 ## Response
 
