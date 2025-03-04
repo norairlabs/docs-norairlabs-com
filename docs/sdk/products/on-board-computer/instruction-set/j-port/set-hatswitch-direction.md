@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Hat switch direction
+# Set hat switch direction
 
 Sets the heading of the hat switch.
 
