@@ -20,8 +20,6 @@ Sets the heading of the hatswitch.
 | 1    | 24    | 1    | BIN  | Set hatswitch direction instruction code |
 | 2    | D     | 1    | BIN  | Direction (0..8)  (see table)|
 
-
-
 ## Direction
 
 | Type | Behavior                 |
