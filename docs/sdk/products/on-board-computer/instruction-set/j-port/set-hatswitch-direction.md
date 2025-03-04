@@ -46,4 +46,4 @@ Sets the heading of the hat switch.
 |------|-------|------|------|-------------------------------------------|
 | 0    | 10    | 1    | BIN  | J-PORT address                           |
 | 1    | 24    | 1    | BIN  |Set hat switch direction instruction code              |
-| 2    | V     | 1    | BIN  |Allways 1. On invalid direction, NULL (8) is assumed  |
+| 2    | V     | 1    | BIN  |Always 1. On invalid direction, NULL (8) is assumed  |
