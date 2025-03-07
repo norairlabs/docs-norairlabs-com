@@ -11,20 +11,20 @@ Sets the behavior of a VICe joystick button.
 > *This instruction mirrors the J-PORT Program Button instruction with the modifications needed specifically for a VICe connector.*
 > ***It is included in the NorAir Frame libraries to ease the way of developers.***
 
-In reality, has this is a J-PORT targeted instruction. It does not exists as a peripheral instruction but only in
+In reality, has this is a J-PORT targeted instruction, it does not exists as a peripheral instruction but only in
 the NorAir Frame libraries to retrieve the correct setup sequence based on the action button type declared.
 
 ### What to have in mind
 
  Some notions to remember:
- - A VICe must be create before to this instruction. Take note of the joystick number attributed.
- - The VICe joystick button ranges from 1 to 200. It is a *joystick button* number, not a connector number
- - This instruction aims the J-PORT management engine, not a peripheral
- - The *action button* is the button that a VICe is associated to and it is a *joystick button*
+ - A VICe must be create prior to this instruction. Take note of the joystick number attributed to the VICe.
+ - The VICe joystick button ranges from 1 to 200. It is a *joystick button* number, not a connector number.
+ - This instruction aims the J-PORT management engine, not a peripheral.
+ - The *action button* is the button that a VICe is associated to and it is a *joystick button*.
  - It is imperative to accomodate the VICe behaviour to the one of the action button correctly.
    For this, use the NorAir Frame libraries which provides this correspondence.
  - Using the NorAir Frame libraries, the type supplied must be the same as the one attributed to the action button as the
-   correspondece is done internally by the library
+   correspondece is done internally by the library.
  - Changes can only be made after suitable enumeration. They reset to defaults after a hard-reset and on power on.
    
 ## *Using NorAir Frame libraries*
